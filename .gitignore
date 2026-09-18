@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+
+# -------------------------------------------------------------
+# Teacher Materials & Solutions (Do not push to public repo)
+# ไฟล์คู่มือครูและเฉลยเหล่านี้จะถูกเก็บไว้เฉพาะในเครื่องผู้สอน
+# จะไม่ถูก push ขึ้น GitHub เพื่อป้องกันนักเรียนเห็นเฉลยก่อน
+# -------------------------------------------------------------
+TEACHER_GUIDE.md
+teacher_assets/
