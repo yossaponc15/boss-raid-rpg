@@ -30,7 +30,7 @@ def run_raid(sleep_delay=0.6):
     print_divider("-")
 
     # กำหนดค่าเริ่มต้นของบอส
-    boss = DragonBoss(name="Ancient Flame Dragon", max_hp=500, shield=0)
+    boss = DragonBoss(name="Ancient Flame Dragon", max_hp=500, shield=50)
     print(boss.render_status())
     print_divider("=")
     print("⚔️ ศึกเริ่มต้นขึ้นแล้ว! ทุกลมหายใจคือการต่อสู้!\n")
