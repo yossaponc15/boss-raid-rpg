@@ -8,8 +8,8 @@ Guild Headquarters - ศูนย์รวมปาร์ตี้ของก�
 # -------------------------------------------------------------
 # [CONFLICT_ZONE_SLOGAN]
 # แต่ละคน/แต่ละคู่ จะแก้ไขคำขวัญกิลด์ตรงนี้ให้เป็นสไตล์ของตัวเอง
-GUILD_NAME = "The Bug Hunters"
-GUILD_SLOGAN = "รวมพลังผู้กล้า ล่าบั๊กในโค้ด พิชิตมังกร!"
+GUILD_NAME = "Hero"
+GUILD_SLOGAN = "hello"
 # -------------------------------------------------------------
 
 
@@ -17,7 +17,7 @@ GUILD_SLOGAN = "รวมพลังผู้กล้า ล่าบั๊ก
 from heroes.knight_bot import KnightBot
 # [STUDENT_IMPORTS_HERE]
 # ตัวอย่าง: from heroes.hero_berserker import BerserkerHero
-
+from heroes.hero_mage import GrandMageHero
 
 # -------------------------------------------------------------
 # [CONFLICT_ZONE_PARTY]
@@ -26,6 +26,7 @@ from heroes.knight_bot import KnightBot
 PARTY_MEMBERS = [
     KnightBot(),
     # [ADD_YOUR_HERO_HERE]
+    GrandMageHero(),
 ]
 # -------------------------------------------------------------
 
