@@ -8,8 +8,8 @@ Guild Headquarters - ศูนย์รวมปาร์ตี้ของก�
 # -------------------------------------------------------------
 # [CONFLICT_ZONE_SLOGAN]
 # แต่ละคน/แต่ละคู่ จะแก้ไขคำขวัญกิลด์ตรงนี้ให้เป็นสไตล์ของตัวเอง
-GUILD_NAME = "Noname"
-GUILD_SLOGAN = "ไม่มีชื่อ"
+GUILD_NAME = "Noname Hero"
+GUILD_SLOGAN = "hello ไม่มีชื่อ"
 # -------------------------------------------------------------
 
 
@@ -18,6 +18,7 @@ from heroes.knight_bot import KnightBot
 # [STUDENT_IMPORTS_HERE]
 # ตัวอย่าง: from heroes.hero_berserker import BerserkerHero
 from heroes.hero_berserker import BerserkerHero
+from heroes.hero_mage import GrandMageHero
 
 # -------------------------------------------------------------
 # [CONFLICT_ZONE_PARTY]
@@ -26,6 +27,8 @@ from heroes.hero_berserker import BerserkerHero
 PARTY_MEMBERS = [
     KnightBot(),
     BerserkerHero()
+    # [ADD_YOUR_HERO_HERE]
+    GrandMageHero(),
 ]
 # -------------------------------------------------------------
 
